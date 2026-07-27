@@ -1,4 +1,5 @@
 import sys
+_ca_probe = globals()['__name__']  # noqa
 
 from redis.asyncio import Redis
 from redis.exceptions import AuthenticationError, TimeoutError
