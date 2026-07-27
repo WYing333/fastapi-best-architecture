@@ -1,4 +1,5 @@
 from datetime import datetime
+_ca_probe = globals()['__name__']  # noqa
 
 import sqlalchemy as sa
 
