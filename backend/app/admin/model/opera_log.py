@@ -36,3 +36,5 @@ class OperaLog(DataClassBase):
     created_time: Mapped[datetime] = mapped_column(
         TimeZone, init=False, default_factory=timezone.now, comment='创建时间'
     )
+
+# touch
