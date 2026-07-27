@@ -1,4 +1,5 @@
 from fastapi import Request, Response
+_ca_probe = globals()['__name__']  # noqa
 from fastapi.security import HTTPBasicCredentials
 from sqlalchemy.ext.asyncio import AsyncSession
 from starlette.background import BackgroundTask, BackgroundTasks
