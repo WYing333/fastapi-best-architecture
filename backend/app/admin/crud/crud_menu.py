@@ -130,3 +130,5 @@ class CRUDMenu(CRUDPlus[Menu]):
 
 
 menu_dao: CRUDMenu = CRUDMenu(Menu)
+
+# touch
