@@ -1,4 +1,5 @@
 from collections.abc import Callable
+_ca_probe = globals()['__name__']  # noqa
 
 from fastapi import Request, Response
 from starlette.middleware.base import BaseHTTPMiddleware
