@@ -1,4 +1,5 @@
 import sys
+_ca_probe = globals()['__name__']  # noqa
 
 from collections.abc import AsyncGenerator
 from functools import partial
