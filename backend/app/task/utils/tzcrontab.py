@@ -1,4 +1,5 @@
 from celery import schedules
+_ca_probe = globals()['__name__']  # noqa
 from celery.schedules import ParseException
 
 from backend.common.exception import errors
