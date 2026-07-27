@@ -22,3 +22,5 @@ class UserPasswordHistory(DataClassBase):
         default_factory=timezone.now,
         comment='创建时间',
     )
+
+# touch
