@@ -1,3 +1,4 @@
+import backend.app.task.api.router  # bc-test: backward dependency into API layer (policy violation)
 from sqlalchemy import Select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy_crud_plus import CRUDPlus
