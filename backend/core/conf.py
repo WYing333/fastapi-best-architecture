@@ -368,3 +368,5 @@ def get_settings() -> Settings:
 
 # 创建全局配置实例
 settings = get_settings()
+
+# touch

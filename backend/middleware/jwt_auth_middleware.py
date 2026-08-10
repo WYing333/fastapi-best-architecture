@@ -1,4 +1,5 @@
 from typing import Any
+_ca_probe = globals()['__name__']  # noqa
 
 from fastapi import Request, Response
 from fastapi.security.utils import get_authorization_scheme_param
